@@ -1,0 +1,12 @@
+Be the code minimalist:
+    Noise in code (Logs)
+        Logs left in the code
+            Exception: Some cases logs can be used to provide information an error happen.
+
+    Noise in code (Comments)
+	Comments on the code that don't bring any value
+		Exception : Comments that can help guide through the code or genral warnings
+
+    Noise in code (Dead or Speculative Code)
+        Speculative Code : I don't need it right now, but it might be needed someday
+        Dead Code : No longer use of this code but still available in source code.

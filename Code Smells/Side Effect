@@ -1,0 +1,8 @@
+Side Effect:
+    Function has some functionality which you would no expect it to do.
+	    Example createOrder that order AND a task for address validation.
+
+    To solve this code smell:
+        Move the side effect to another function of its own.
+        Indicate that in the name that the function does the side effect
+            Example CreateOrderAndValidateAddressTask

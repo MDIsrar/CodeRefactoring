@@ -1,0 +1,12 @@
+Error Post Mortem
+    Could this error be avoided? By changing the code can we avoid not having this error?
+	If not, could the user have fixed it by himself if we provided a better error message?
+	If not, did we get a good message to the devs so that they could fix it?
+
+
+Notification system (continuation)
+	External platforms for managing errors and exceptions : honeybadger, Bugsnag etc.
+		Notifications real-time
+		Assign team members to errors
+		Flag the error as solved when the error is fixed.
+		Dashboard and complete timlines when the errors occurred.

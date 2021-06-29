@@ -1,0 +1,17 @@
+How to enforce the best practices within a team?
+
+    How to ensure best practices within projects
+	
+	Linter:
+		Eslint - " A pluggable and configurable linter tool for identifying and reporting on patterns in JavaScript." 
+                    (https://eslint.org/docs/rules/)
+
+    Code Analysers paid solutions:
+        SonarQube
+        Codacy
+
+    Functionality used with Git, Linters & Code Analysers
+
+        Validate if there are no erros in the code respository, if there are, prevent the deploy of the code.
+        Notify the programmer via email if the code commit to repository has some sort of error
+        Manage rules and legacy code by management

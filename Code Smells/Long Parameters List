@@ -1,0 +1,18 @@
+Long Parameters List:
+
+    Function Parameters with 0 Parameters : - Predictable output as it will not depend on Paramenters
+    Function Parameters with 1 Parameters : - Output depends on just 1 Paramenter
+    Function Parameters with 2 Parameters : - Output depends not only on both Param 1 and 2 but also a combination of Parameter 1 and 2,
+    Function Parameters with 6 Parameters : - Output depends indvidually on each params and also the combination of all params.
+
+
+What about parameters as JSON, Arrays, Maps?
+
+    {
+        name: "John",
+        lastname:"Doe",
+        age:15,
+    }
+
+    Should count as one parameter.
+    It's the creator of the JSON responsibility to ensure that this is created and valid

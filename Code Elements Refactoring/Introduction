@@ -1,0 +1,9 @@
+Zooming in:
+	Reactor individual code components (such as loops, if/else blocks, functions etc.)
+	identify best ways of writing individual components
+
+What will we cover in this chapter?
+
+	Refactor to modern way of writing Javscript.
+	Techniques to refactor individual aspects of the code
+	Exercises for practising

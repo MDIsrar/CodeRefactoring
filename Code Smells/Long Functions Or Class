@@ -1,0 +1,13 @@
+Long Functions Or Class:
+    Humans liited capability to understand complexity
+        Rely on graphs and diagrams to explain complexity
+    Having long functions means that it's harder fo rus to break down all the complexity and understand all it's consequences.
+
+        Focus on Modularity, small focused and classes that deal with independent aspects of the app
+
+Maximum size of a Function?
+    Fits in one screen
+    Single Responsibility Principle
+
+    Some people argue around 400 (Arounnd 15 Methods of 20-30 lines of code)
+    Others go up to 900 (Rule of 30 by Martin Lippert and Stephen Roock)

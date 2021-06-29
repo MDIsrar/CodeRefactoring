@@ -1,0 +1,54 @@
+Objectives
+    Learn About Javascript (JS):
+        Common issues
+        Techniques to refactor code into easier, maintable and less complex code
+        Modern Syntax
+    Specifically:
+        Refactor existing code into more maintable code.
+        Learn about the different JS syntax and why you should use it/avoid it.
+        Optimize your code structure to make it easier for other developers to work with it.
+        Tools that help you and your team to follow rules based on the best practices.
+
+Keeps in mind
+    Refactor works like a diet.
+    Tests can really speed up the rate at which you refactor.
+
+
+Code Smells : A code smell is surface indication that usually corresponds to deeper problem in the system.
+    Code structure that negatively impact design quality
+    Usually not bugs, however, increase the risk for a bug down the line.
+
+
+    Refactoring Steps
+        Identify - Find the problem
+        Analyse - Propose a solution
+        Refactor - change the code
+
+/////////////////////////////////////////////////////
+
+General Code Smells : 
+    Mysterious names
+        Avoid ambiguity, mysterious names [Example: Options, Total]
+            Better names would paymentOptions; totalDebt
+        Avoid one-char [Example p, s]
+            Better names would be product, sellPrice;
+            Exception: i, j, k in loops
+        Avoid ambiguity in terms of type [Example : Fruits]
+            Consider Changing to fruitsArray or fruitsList
+
+    Duplicate Code
+
+///////////////////////////////////////////////////////
+
+Kill All Global Data : 
+    When should be use global data?
+        Constant Values, Configuration values. Should be centralized around global data to avoid duplication
+            Example: BusinessHours;
+
+    Problem with Global Data
+        Very hard to understand the flow and all the changes that happened to a global variable.
+        Creates High coupling between functions that rely on the global variable. The function won't be able to be used without the global variables.
+        Changing a global var can affect in unexpected ways functions that depend it's value.
+
+
+//////////////////////////////////////////////////////
